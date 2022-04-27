@@ -35,5 +35,19 @@ export function getAlbums() {
 			title: "Silk",
 			artists: ["Isaac Lewis"],
 		},
+		{
+			link: "https://lnkfi.re/5WvbSWiU",
+			src: "https://m.media-amazon.com/images/I/91XTJwHCsrL._SS500_.jpg",
+			alt: "Inferno Cover",
+			title: "Inferno",
+			artists: ["Isaac Lewis"],
+		},
+		{
+			link: "https://independent.ffm.to/patient",
+			src: "https://i.scdn.co/image/ab67616d0000b273d1b64f27ab8e4b5f2f8a9a2e",
+			alt: "Patient Cover",
+			title: "Patient",
+			artists: ["Isaac Lewis"],
+		},
 	];
 }

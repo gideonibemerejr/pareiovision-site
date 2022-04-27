@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import { Nav, Menu, Home } from "../../Components";
+import { Nav, Menu, Listen } from "../../Components";
 import { grainedService } from "../../utils";
 
-class HomePage extends Component {
+class ListenPage extends Component {
 	state = {
 		isMenuOpen: false,
 	};
@@ -48,14 +48,14 @@ class HomePage extends Component {
 				<Nav currentPage="home" toggleMenu={this.toggleMenu} />
 				<div
 					id="home"
-					className="absolute top-0 left-0 vh-100 top-0 w-100 o-90"
+					className="absolute vh-100 w-100 o-90"
 					style={{ backgroundColor: "#efe8e0" }}
 				>
-					<Home />
+					<Listen />
 				</div>
 			</div>
 		);
 	}
 }
 
-export default HomePage;
+export default ListenPage;
