@@ -5,16 +5,18 @@ import { HomePage, ListenPage } from "./Pages";
 
 function App() {
 	return (
-		<Switch>
-			<Route exact path="/">
-				<HomePage />
-			</Route>
-			<Route exact path="/listen">
-				<ListenPage />
-			</Route>
+		<>
+			<Switch>
+				<Route exact path="/">
+					<HomePage />
+				</Route>
+				<Route exact path="/listen">
+					<ListenPage />
+				</Route>
 
-			<Redirect to="/" />
-		</Switch>
+				<Redirect to="/" />
+			</Switch>
+		</>
 	);
 }
 

@@ -36,6 +36,20 @@ export function getAlbums() {
 			artists: ["Isaac Lewis"],
 		},
 		{
+			link: "https://pareiovision.bandcamp.com/album/these-days-go-by",
+			src: "https://f4.bcbits.com/img/a0478577102_16.jpg",
+			alt: "These Days Go By Cover",
+			title: "These Days Go By",
+			artists: ["Isaac Lewis"],
+		},
+		{
+			link: "https://lnkfi.re/slowdownandchew",
+			src: "https://i.scdn.co/image/ab67616d0000b273580971dc46c835820119c878",
+			alt: "Slow Down and Chew Cover",
+			title: "Slow Down and Chew",
+			artists: ["Isaac Lewis"],
+		},
+		{
 			link: "https://lnkfi.re/5WvbSWiU",
 			src: "https://m.media-amazon.com/images/I/91XTJwHCsrL._SS500_.jpg",
 			alt: "Inferno Cover",

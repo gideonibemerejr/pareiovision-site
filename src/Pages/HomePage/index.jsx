@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Nav, Menu, Home } from "../../Components";
+import { Nav, Menu, Home, Footer } from "../../Components";
 import { grainedService } from "../../utils";
 
 class HomePage extends Component {
@@ -53,6 +53,7 @@ class HomePage extends Component {
 				>
 					<Home />
 				</div>
+				<Footer />
 			</div>
 		);
 	}
